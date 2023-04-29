@@ -699,11 +699,11 @@ boton.addEventListener("click", function(){
 var contador = 0;
 function refrescar(resu,contador){
     
-    if(contT==6){
+    //if(contT==6){
     
-        setTimeout( function() { window.location.href = "win.html" }, 600);
+        //setTimeout( function() { window.location.href = "win.html" }, 600);
      
-    }
+    //}
 
 for(i =11; i<=144 ; i++){
     if(contT % 2 == 0){
