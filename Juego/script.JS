@@ -701,7 +701,7 @@ function refrescar(resu,contador){
     
     if(contT==6){
     
-        setTimeout( function() { window.location.href = "win.html" }, 600);
+        //setTimeout( function() { window.location.href = "win.html" }, 600);
      
     }
 
