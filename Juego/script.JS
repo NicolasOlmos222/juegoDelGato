@@ -725,7 +725,6 @@ for(i =11; i<=144 ; i++){
         document.getElementById("caja").style.fontSize = "2vw";
         contador++;
         matrizar(resu, 1);
-        alert(matriz);
 
  }
     }else if (i == resu){
@@ -736,7 +735,6 @@ for(i =11; i<=144 ; i++){
         document.getElementById("caja").style.fontSize = "2vw";
         contador++;
         matrizar(resu, 2);
-        alert(matriz);
 }
 
 }
@@ -744,10 +742,10 @@ for(i =11; i<=144 ; i++){
     for (let i = 0; i < 7; i++) {
         for (let j = 0; j < 7 - 3; j++) {
             if (matriz[i][j] === 1 && matriz[i][j+1] === 1 && matriz[i][j+2] === 1 && matriz[i][j+3] === 1) {
-                alert("gano jugador 1");
+                setTimeout( function() { window.location.href = "win.html" }, 600);
             }
             else if (matriz[i][j] === 2 && matriz[i][j+1] === 2 && matriz[i][j+2] === 2 && matriz[i][j+3] === 2) {
-                alert("gano jugador 2");
+                setTimeout( function() { window.location.href = "win.html" }, 600);
             }
         }
     }
@@ -755,10 +753,10 @@ for(i =11; i<=144 ; i++){
     for (let i = 0; i < 7 - 3; i++) {
         for (let j = 0; j < 7; j++) {
             if (matriz[i][j] === 1 && matriz[i+1][j] === 1 && matriz[i+2][j] === 1 && matriz[i+3][j] === 1) {
-                alert("gano jugador 1");
+                setTimeout( function() { window.location.href = "win.html" }, 600);
             }
             else if (matriz[i][j] === 2 && matriz[i+1][j] === 2 && matriz[i+2][j] === 2 && matriz[i+3][j] === 2) {
-                alert("gano jugador 2");
+                setTimeout( function() { window.location.href = "win.html" }, 600);
             }
         }
     }
@@ -766,10 +764,10 @@ for(i =11; i<=144 ; i++){
     for (let i = 0; i < 7 - 3; i++) {
         for (let j = 0; j < 7 - 3; j++) {
             if (matriz[i][j] === 1 && matriz[i+1][j+1] === 1 && matriz[i+2][j+2] === 1 && matriz[i+3][j+3] === 1) {
-                alert("gano jugador 1");
+                setTimeout( function() { window.location.href = "win.html" }, 600);
             }
             else if (matriz[i][j] === 2 && matriz[i+1][j+1] === 2 && matriz[i+2][j+2] === 2 && matriz[i+3][j+3] === 2) {
-                alert("gano jugador 2");
+                setTimeout( function() { window.location.href = "win.html" }, 600);
             }
         }
     }
@@ -777,10 +775,10 @@ for(i =11; i<=144 ; i++){
     for (let i = 3; i < 7; i++) {
         for (let j = 3; j < 7; j++) {
             if (matriz[i][j] === 1 && matriz[i-1][j-1] === 1 && matriz[i-2][j-2] === 1 && matriz[i-3][j-3] === 1) {
-                alert("gano jugador 1");
+                setTimeout( function() { window.location.href = "win.html" }, 600);
             }
             else if (matriz[i][j] === 2 && matriz[i-1][j-1] === 2 && matriz[i-2][j-2] === 2 && matriz[i-3][j-3] === 2) {
-                alert("gano jugador 2");
+                setTimeout( function() { window.location.href = "win.html" }, 600);
             }
         }
     }
