@@ -717,7 +717,7 @@ for(i =11; i<=144 ; i++){
         document.getElementById("caja").style.fontSize = "2vw";
         contador++;
         matrizar(resu, 1);
-        alert(matriz)
+        //alert(matriz)
 
  }
     }else if (i == resu){
@@ -728,7 +728,7 @@ for(i =11; i<=144 ; i++){
         document.getElementById("caja").style.fontSize = "2vw";
         contador++;
         matrizar(resu, 2);
-        alert(matriz)
+        //alert(matriz)
 }
 
 }
