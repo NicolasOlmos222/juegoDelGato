@@ -694,20 +694,12 @@ boton.addEventListener("click", function(){
 
 
 
-
-
-
-
-
-
-
-
 var contador = 0;
 function refrescar(resu,contador){
     
     function matrizar(num, jug){
-        for (let i = 0; i < 7 - 3; i++) {
-            for (let j = 0; j < 7 - 3; j++) {
+        for (let i = 0; i < 7; i++) {
+            for (let j = 0; j < 7; j++) {
                 if (matriz[i][j] === num){
                     matriz[i][j] = jug;
                 }
@@ -725,6 +717,7 @@ for(i =11; i<=144 ; i++){
         document.getElementById("caja").style.fontSize = "2vw";
         contador++;
         matrizar(resu, 1);
+        alert(matriz)
 
  }
     }else if (i == resu){
@@ -735,6 +728,7 @@ for(i =11; i<=144 ; i++){
         document.getElementById("caja").style.fontSize = "2vw";
         contador++;
         matrizar(resu, 2);
+        alert(matriz)
 }
 
 }
