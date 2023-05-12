@@ -17,13 +17,14 @@ body {
     height: 100px;
     width: 100%;
     margin: 0px;
-    position: fixed;
+    position: absolute;
   }
   .boton_header{
     padding-top: 1%;
     position: absolute;
     top: 25px;
     margin-left: 10px;
+
   }
   .botonH{
     background-color:  rgb(255, 193, 199);
@@ -34,7 +35,7 @@ body {
   .botonH:hover{
      background: rgb(228, 162, 168);
   }
-  h1{
+  h2{
     color: rgb(0, 0, 0);
     padding: 30px;
     text-align: center;
@@ -52,30 +53,32 @@ body {
     margin: 70px;
   }
   ol {
+    font-size: 1.5vw;
     list-style-type: decimal;
     padding: 0px;
-    margin: 40px;
     height: 600%;
   }
   
   ul {
+    display: flex;
+    flex-wrap: wrap;
     width: 450px; 
-    margin-left: 30%;
-    text-align: left;
+    margin-left: 25%;
+    text-align: center;
   }
   
-  h2 {
+  h1 {
     color: #333;
     margin-top: 0;
     margin-bottom: 50px;
-    font-size: 23px;
+    font-size: 2vw;
     text-transform: uppercase;
     border-bottom: 1px solid #333;
     background-color: rgb(93, 181, 248);
     text-align: center;
     margin: 32px;
     width: 730px;
-    margin-left: 26%;
+    margin-left: 20%;
   }
   li{
     width: 550px; 
@@ -93,12 +96,10 @@ body {
     line-height: 40px;
   }
 
-  .imagen{
-
-      width: 60%;
-      height: 30%;
-      padding-left: 7%;
-
-
+  .imagen {
+    width: 80%;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
   }
 
