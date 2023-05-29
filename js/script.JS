@@ -76,6 +76,7 @@ var matriz = [  [11, 12, 14, 15, 16, 18, 20],
                               }
                           }
                           return false;
+                          refrescar();
                       }
 
                       function comprobar(num){
@@ -117,11 +118,10 @@ var matriz = [  [11, 12, 14, 15, 16, 18, 20],
                             resu=0;
                         }
 
-                        } 
-                         
-                  
-                      
-                         if (resu!= 0 && resu!= 11 && resu!= 12 && resu!= 14 && resu!= 15 && resu!= 16 && resu!= 18 && resu!= 20
+
+                        }
+                        //comprueba casilla inexsitente
+                        if (resu!= 0 && resu!= 11 && resu!= 12 && resu!= 14 && resu!= 15 && resu!= 16 && resu!= 18 && resu!= 20
                           && resu!= 21 && resu!= 22 && resu!= 24 && resu!= 25 && resu!= 27 && resu!= 28 && resu!= 30
                           && resu!= 32 && resu!= 33 && resu!= 35 && resu!= 36 && resu!= 40 && resu!= 42 && resu!= 44
                           && resu!= 45 && resu!= 48 && resu!= 49 && resu!= 50 && resu!= 54 && resu!= 55 && resu!= 56
@@ -136,6 +136,10 @@ var matriz = [  [11, 12, 14, 15, 16, 18, 20],
                           contT= contT+2;
                           resu=0;
                         }
+                         
+                  
+                      
+
 
                     }else if (i == resu){
                           if(comprobar(resu, contT)){                      
@@ -155,7 +159,8 @@ var matriz = [  [11, 12, 14, 15, 16, 18, 20],
                             contT= contT+2;
                           }
 
-                        
+                  }
+                  //comprueba casilla inexsitente
                   if ( resu!= 0 && resu!= 11 && resu!= 12 && resu!= 14 && resu!= 15 && resu!= 16 && resu!= 18 && resu!= 20
                     && resu!= 21 && resu!= 22 && resu!= 24 && resu!= 25 && resu!= 27 && resu!= 28 && resu!= 30
                     && resu!= 32 && resu!= 33 && resu!= 35 && resu!= 36 && resu!= 40 && resu!= 42 && resu!= 44
@@ -170,8 +175,6 @@ var matriz = [  [11, 12, 14, 15, 16, 18, 20],
                     contador++;
                     contT= contT+2;
                     resu=0;
-                  }
-                
                   }
                   
                  
