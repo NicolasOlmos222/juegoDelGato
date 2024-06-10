@@ -105,6 +105,7 @@ var matriz = [  [11, 12, 14, 15, 16, 18, 20],
                           document.getElementById(i.toString()).setAttribute("value", "1")
                           document.getElementById("caja").innerHTML = "JUEGA VERDE";
                           document.getElementById("caja").style.fontSize = "2vw";
+                          document.getElementById("caja").className = "text-center";
                           contador++;
                           matrizar(resu, 1); 
                           
@@ -113,6 +114,7 @@ var matriz = [  [11, 12, 14, 15, 16, 18, 20],
                             alert("Casilla pintada, perdiste el turno")
                             document.getElementById("caja").innerHTML = "JUEGA VERDE (ROJO PERDIO TURNO)";
                             document.getElementById("caja").style.fontSize = "2vw";
+                            document.getElementById("caja").className = "text-center";
                             contador++;
                             contT= contT+2;
                             resu=0;
@@ -132,6 +134,7 @@ var matriz = [  [11, 12, 14, 15, 16, 18, 20],
                           alert("Casilla inexistente, perdiste el turno")
                           document.getElementById("caja").innerHTML = "JUEGA VERDE (ROJO PERDIO TURNO)";
                           document.getElementById("caja").style.fontSize = "2vw";
+                          document.getElementById("caja").className = "text-center";
                           contador++;
                           contT= contT+2;
                           resu=0;
@@ -147,6 +150,7 @@ var matriz = [  [11, 12, 14, 15, 16, 18, 20],
                           document.getElementById(i.toString()).setAttribute("value", "2")
                           document.getElementById("caja").innerHTML = " JUEGA ROJO";
                           document.getElementById("caja").style.fontSize = "2vw";
+                          document.getElementById("caja").className = "text-center";
                           contador++;
                           matrizar(resu, 2);  
                           } else {
@@ -154,6 +158,7 @@ var matriz = [  [11, 12, 14, 15, 16, 18, 20],
                             alert("Casilla pintada, perdiste el truno")
                             document.getElementById("caja").innerHTML = " JUEGA ROJO (VERDE PERDIO TURNO)";
                             document.getElementById("caja").style.fontSize = "2vw";
+                            document.getElementById("caja").className = "text-center";
                             resu=0;
                             contador++;
                             contT= contT+2;
@@ -172,6 +177,7 @@ var matriz = [  [11, 12, 14, 15, 16, 18, 20],
                     alert("Casilla inexistente, perdiste el turno")
                     document.getElementById("caja").innerHTML = " JUEGA ROJO (VERDE PERDIO TURNO)";
                     document.getElementById("caja").style.fontSize = "2vw";
+                    document.getElementById("caja").className = "text-center";
                     contador++;
                     contT= contT+2;
                     resu=0;

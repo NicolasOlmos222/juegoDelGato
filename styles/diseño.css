@@ -1,105 +1,32 @@
-*{
-  margin: 0px auto;
-  padding: 0px;
-}
 body {
-    font-family: Arial, sans-serif;
-    background-color: #d8f5ff;
-    text-align: center;
-    
-    
-  }
-  
-  header {
-    text-align: center;
-    background-color: rgb(255, 193, 199);
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
-    height: 100px;
-    width: 100%;
-    margin: 0px;
-    position: absolute;
-  }
-  .boton_header{
-    padding-top: 1%;
-    position: absolute;
-    top: 25px;
-    margin-left: 10px;
+  margin: 0;
+  padding: 0;
+  background-color:  rgb(216, 238, 255);
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+*{
+box-sizing: border-box;
+}
 
-  }
-  .botonH{
-    background-color:  rgb(255, 193, 199);
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-  }
-  .botonH:hover{
-     background: rgb(228, 162, 168);
-  }
-  h2{
-    color: rgb(0, 0, 0);
-    padding: 30px;
-    text-align: center;
-    width: 96%;
-  }
-  
-  main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    text-align: justify;
-    margin: 70px;
-  }
-  ol {
-    font-size: 1.5vw;
-    list-style-type: decimal;
-    padding: 0px;
-    height: 600%;
-  }
-  
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    width: 450px; 
-    margin-left: 25%;
-    text-align: center;
-  }
-  
-  h1 {
-    color: #333;
-    margin-top: 0;
-    margin-bottom: 50px;
-    font-size: 2vw;
-    text-transform: uppercase;
-    border-bottom: 1px solid #333;
-    background-color: rgb(93, 181, 248);
-    text-align: center;
-    margin: 32px;
-    width: 730px;
-    margin-left: 20%;
-  }
-  li{
-    width: 550px; 
-    margin-left: 32%;
-    text-align: left;
-  }
-  h4{
-    text-align: center;
-  }
-  footer{
-    background: black;
-    color: white;
-    text-align: center;
-    height: 40px;
-    line-height: 40px;
-  }
-
-  .imagen {
-    width: 80%;
-    height: 300px;
-    object-fit: contain;
-    object-position: center;
-  }
-
+.container1{
+max-width: 700px;
+margin: auto;
+padding: 20px;
+}
+section{
+ border: 2px solid #007bff;
+ border-radius: 15px;
+ padding: 10px;
+ margin: 10px;
+}
+footer{
+  background: black;
+  color: white;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  align-self: flex-end;
+}
